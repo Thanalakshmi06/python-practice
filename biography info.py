@@ -1,0 +1,10 @@
+def biography_info():
+    name = input("Enter your name:")
+    age = input("Enter your age:")
+    DOB = input("Enter your DOB:")
+    Father_name = input("Enter your father_name:")
+    Nationality = input("Enter your Nationality:")
+    print("BIOGRAPHY INFORMATION")
+    print("-----------------------")
+    print("name: {}\n age: {}\n DOB: {}\n Father_name: {}\n Nationality: {}".format(name,age,DOB,Father_name,Nationality))
+biography_info()
